@@ -1,0 +1,114 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whire;
+
+}
+
+h1 {
+    color: white
+}
+
+textarea::placeholder {
+    color: grey;
+}
+
+button:focus {
+    border-color: #67595e;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.output {
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.palindrome {
+    color: #00bf63;
+}
+
+.notpalindrome {
+    color: #ff5757;
+}
+
+.outerdiv {
+    background-color: #67595e;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.heading {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.textarea {
+    margin-top: 20px;
+    width: 770px;
+    height: 200px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 30px;
+    background-color: #eed6d3;
+    color: white;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.buttondiv {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reset-btn {
+    background-color: #e8b4b8;
+    height: 50px;
+    width: 350px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.check-btn {
+    background-color: #e8b4b8;
+    height: 50px;
+    width: 350px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
